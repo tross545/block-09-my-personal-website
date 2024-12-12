@@ -1,0 +1,29 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.persistent-header{
+  background-color: teal;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+a,
+h1,
+h2,
+h3{
+  text-decoration: none;
+}
+
+.links-list li{
+  display: inline-block;
+}
+
+.links-list a {
+  color: white;
+}
+
