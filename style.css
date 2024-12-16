@@ -21,6 +21,10 @@ h3{
   text-decoration: none;
 }
 
+.page-title{
+  padding: 15px 0px;
+}
+
 .links-list li{
   display: inline-block;
 }
