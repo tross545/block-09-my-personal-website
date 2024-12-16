@@ -11,8 +11,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 3%;
+  padding: 25px 3% 20px 3%;
   border: 20px rgb(6, 60, 60);
+  box-shadow: 0px 5px 100px 10px rgba(25, 47, 47, 0.754), 0px 5px 100px 10px inset rgb(25, 47, 47);
 }
 
 a, 
@@ -20,34 +21,49 @@ h1,
 h2,
 h3{
   text-decoration: none;
+  font-family: Helvetica, sans-serif;
+}
+
+.logo{
+  font-size: 28px;
+  color:rgb(249, 246, 242);
+}
+
+#header-image{
+box-shadow: 0px 3px 25px 8px rgb(0, 0, 0);
+width:100vw; 
+height:50px;
 }
 
 .page-title{
   padding-top: 15px;
+  color: rgb(1, 18, 18);
 }
 
 .links-list li{
   display: inline-block;
+  margin: 3px;
 }
 
 .links-list a { 
-  color: white;
+  color: rgb(249, 246, 242);
 }
 
 body{
-  background-color: rgb(155, 51, 20);
+  background-color: rgb(142, 43, 13);
 }
 .main-content{
-  border: 2px solid rgba(7, 95, 101, 0.705);
+  /* border: 1px solid rgb(11, 74, 78); */
   width: 75%;
   margin: 0 auto;
   background-color: rgb(202, 186, 148);
   padding: 0 60px 45px;
+  box-shadow: 0px 15px 50px rgb(120, 35, 9);
 }
 
 .main-content section{
-  border: 4px solid rgb(7, 95, 101);
-  background-color: rgb(241, 237, 218);
+  border: 3px solid rgb(7, 95, 101);
+  background-color: rgb(240, 237, 220);
 }
 
 .section-content {
@@ -59,7 +75,6 @@ body{
   margin: 10px;
   line-height: 1.5;
   font-size: 18px;
-  font-family: sans-serif;
 }
 
 .section-content img{
